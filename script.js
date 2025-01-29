@@ -1,13 +1,8 @@
 let time = document.getElementById("time");
 
 function updateTime() {
-  let date = new Date();
-  let day = date.getDate();
-  let hours = date.getHours();
-  let minutes = date.getMinutes();
-  let seconds = date.getSeconds();
-
-  time.innerHTML = `${day} ${hours}:${minutes}:${seconds}`;
+  let fullTime = new Date().toUTCString();
+  time.innerHTML = `${fullTime}`;
 }
-
+updateTime();
 setInterval(updateTime, 1000);
