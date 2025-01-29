@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: #ffffffee;
+    width: 350px;
+    padding: 20px;
+    margin: 10% auto;
+    border-radius: 10px;
+    box-shadow: 1px 5px 8px #000;
+    text-align: center;
+}
+
+.info h4 {
+    font-size: 15px;
+    color: rgba(95, 95, 243, 0.719);
+}
+
+p {
+    color: #363636c2;
+}
+
+.contact {
+    text-align: left;
+    font-size: 13px;
+}
+
+.email {
+    text-decoration: none;
+}
+
+.socialIcons a {
+    padding: 10px;
+    font-size: 20px;
+    color: #000;
+    transition: color 0.5s, transform 0.5s;
+} 
+
+.socialIcons a:hover {
+    transform: translateY(10px);
+    color: rgba(95, 95, 243, 0.719);
+}
+
