@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    width: 100%;
 }
 
 .container {
@@ -52,13 +53,12 @@ p {
     transform: translateY(-5px);
     color: rgba(95, 95, 243, 0.719);
 }
-/* 
+
 @media (max-width: 400px) {
     body {
-
+        width: 100%;
     }
     .container {
-        width: 95%;
-        margin: 10px 20px;
+        width: 80%;
     }
-} */
+}
