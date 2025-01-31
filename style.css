@@ -6,11 +6,20 @@ body {
 .container {
     background-color: #ffffffee;
     width: 350px;
+    border: 1px groove #5353531f;
     padding: 20px;
     margin: 10% auto;
     border-radius: 10px;
-    box-shadow: inset 1px 5px 8px #000;
     text-align: center;
+    transition: box-shadow 1s;
+}
+
+.container:hover {
+    box-shadow: inset 1px 5px 8px #000;
+}
+
+.container:active {
+    box-shadow: 1px 5px 8px #000;
 }
 
 .info h4 {
